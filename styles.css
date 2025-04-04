@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom right, #fffaf5, #ffe3d8);
+    color: #333;
+    text-align: center;
+    padding: 2rem 1rem;
+    overflow-x: hidden;
+  }
+  header {
+    margin-bottom: 2.5rem;
+  }
+  header img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    animation: fadeIn 2s ease;
+  }
+  h1 {
+    font-size: 2.7rem;
+    margin: 1.2rem 0;
+    color: #d14b4b;
+    animation: slideIn 1.5s ease;
+  }
+  p.frase {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 2rem;
+    animation: fadeIn 2.5s ease;
+  }
+  .info {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    animation: fadeInUp 1.8s ease;
+  }
+  .info p {
+    font-size: 1.1rem;
+    margin: 0.8rem 0;
+  }
+  .countdown {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #d14b4b;
+    animation: pulse 2s infinite;
+  }
+  .rsvp-btn {
+    background: linear-gradient(135deg, #ff7b54, #ff5722);
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
+  }
+  .rsvp-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(255, 87, 34, 0.5);
+  }
+  iframe {
+    margin-top: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  audio {
+    margin-top: 2rem;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slideIn {
+    from { transform: translateY(-40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
