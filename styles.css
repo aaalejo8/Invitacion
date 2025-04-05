@@ -56,9 +56,11 @@
   }
   /*Clase confirmar asistencia*/
 
-  .contendor{
+  .contenedor{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .rsvp-btn {
     background: linear-gradient(135deg, #ff7b54, #ff5722);
