@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header>
     <img src="https://via.placeholder.com/450x280.png?text=Fiesta+Incre%C3%ADble" alt="Imagen del evento">
@@ -22,13 +24,13 @@
 
   <div class="countdown" id="countdown">Faltan: 5d 13h 04m 10s</div>
 
-  <button class="rsvp-btn" onclick="confirmarAsistencia()">Confirmar asistencia</button>
+  <div class="contenedor">
+    <button class="rsvp-btn" onclick="confirmarAsistencia()">Confirmar asistencia</button>
 
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9990372219965!2d2.2922923156743465!3d48.85884407928771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdeb8f3a2d3%3A0xfec6f3de908aa0!2sTorre+Eiffel!5e0!3m2!1ses!2sfr!4v1614334527095!5m2!1ses!2sfr"
-    allowfullscreen=""
-    loading="lazy"
-  ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9990372219965!2d2.2922923156743465!3d48.85884407928771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdeb8f3a2d3%3A0xfec6f3de908aa0!2sTorre+Eiffel!5e0!3m2!1ses!2sfr!4v1614334527095!5m2!1ses!2sfr"
+      allowfullscreen="" loading="lazy"></iframe>
+  </div>
 
   <audio controls autoplay loop>
     <source src="https://www.bensound.com/bensound-music/bensound-dreams.mp3" type="audio/mpeg">
@@ -37,4 +39,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>

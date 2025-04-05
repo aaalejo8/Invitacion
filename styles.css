@@ -54,6 +54,12 @@
     color: #d14b4b;
     animation: pulse 2s infinite;
   }
+  /*Clase confirmar asistencia*/
+
+  .contendor{
+    display: flex;
+    flex-direction: column;
+  }
   .rsvp-btn {
     background: linear-gradient(135deg, #ff7b54, #ff5722);
     color: white;
